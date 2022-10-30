@@ -1,1 +1,2 @@
 import mr
+mr.main()
