@@ -1,2 +1,2 @@
-import Mr
-Mr.main()
+import mr
+mr.main()
