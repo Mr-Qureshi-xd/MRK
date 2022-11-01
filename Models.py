@@ -4,7 +4,7 @@ from Cython.Build import cythonize
 os.system('pkg install cython -y')
 os.system('pip install Cython')
 
-main_file = 'Mr.c'
+main_file = 'mr.c'
  
 def install(main_file):
 	nama = main_file.split(".")[0]
