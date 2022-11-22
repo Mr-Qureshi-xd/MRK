@@ -13,8 +13,8 @@ os.system('git pull')
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import FMB
-    FMB.o()
+    import MRK64
+    MRK64.Mrks()
 elif bit == '32bit':
-    import arm32
-    arm32.o()
+    import MRK
+    MRK.Mrks()
