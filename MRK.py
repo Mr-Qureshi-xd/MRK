@@ -16,5 +16,5 @@ if bit == '64bit':
     import MRKs
     MRKs.Mrks()
 elif bit == '32bit':
-    import MRK
+    import MRKs
     MRKs.Mrks()
